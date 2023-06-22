@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-title{
+    @apply text-xl md:text-4xl text-center font-bold capitalize py-8 md:py-16 text-cyan-900
+}
+.custom-btn{
+    @apply bg-cyan-600 px-4 py-2 rounded-md text-white font-semibold capitalize text-lg my-2 hover:bg-cyan-700
+}
